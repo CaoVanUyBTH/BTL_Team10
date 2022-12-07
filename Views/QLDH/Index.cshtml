@@ -1,0 +1,22 @@
+@model IEnumerable<Nhom10.Models.QLDH>
+<p>
+    <a class="btn btn-success" asp-action="Create">Create a new QLDH</a>
+</p>
+<table class="table table-all">
+    <tr>
+        <th>QLDHID</th>
+        <th>QLDHName</th>
+        <th>Other</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(m => item.QLDHID)</td>
+            <td>@Html.DisplayFor(m => item.QLDHName)</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.QLDHID">Sửa</a> |
+                <a asp-action="Delete" asp-route-id="@item.QLDHID">Xóa</a>
+            </td>
+        </tr>
+    }
+</table>

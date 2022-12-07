@@ -1,0 +1,25 @@
+@model Nhom10.Models.QLSP
+<h1>Create New QLSP</h1>
+<hr>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="QLSPID" class="control-label"></label>
+                <input asp-for="QLSPID" class="form-control">
+                <span asp-validation-for="QLSPID" class"text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QLSPName" class="control-label"></label>
+                <input asp-for="QLSPName" class="form-control">
+                <span asp-validation-for="QLSPName" class"text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <input class="btn btn-primary" type="submit" value="Save">
+                <a class="btn btn-success" asp-action="Index">List QLSP</a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+@model IEnumerable<Nhom10.Models.Employee>
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Index</h1>
+<p> 
+    <a asp-action="Create">Creat New</a> | <a asp-action="Upload">Input Excel</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmpID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmpName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.EmpID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.EmpID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.EmpID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

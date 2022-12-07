@@ -1,0 +1,25 @@
+@model Nhom10.Models.QLDH
+<h1>Create New QLDH</h1>
+<hr>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="QLDHID" class="control-label"></label>
+                <input asp-for="QLDHID" class="form-control">
+                <span asp-validation-for="QLDHID" class"text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QLDHName" class="control-label"></label>
+                <input asp-for="QLDHName" class="form-control">
+                <span asp-validation-for="QLDHName" class"text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <input class="btn btn-primary" type="submit" value="Save">
+                <a class="btn btn-success" asp-action="Index">List QLDH</a>
+            </div>
+        </form>
+    </div>
+</div>

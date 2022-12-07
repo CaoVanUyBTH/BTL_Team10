@@ -1,0 +1,23 @@
+@model Nhom10.Models.QLSP
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h3>Delete QLSP</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dl class="col-sm-2">
+            @Html.DisplayNameFor(model => model.QLSPName);
+        </dl>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.QLSPName)
+        </dd>
+    </dl>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="QLSPID" />
+        <input type="submit" value= "Delete" class="btn btn-danger" />
+        <a class="btn btn-success" asp-action="Index">List QLSP</a>
+    </form>
+</div>

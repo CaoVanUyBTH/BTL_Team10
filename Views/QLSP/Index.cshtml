@@ -1,0 +1,22 @@
+@model IEnumerable<Nhom10.Models.QLSP>
+<p>
+    <a class="btn btn-success" asp-action="Create">Create a new QLSP</a>
+</p>
+<table class="table table-all">
+    <tr>
+        <th>QLSPID</th>
+        <th>QLSPName</th>
+        <th>Other</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(m => item.QLSPID)</td>
+            <td>@Html.DisplayFor(m => item.QLSPName)</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.QLSPID">Sửa</a> |
+                <a asp-action="Delete" asp-route-id="@item.QLSPID">Xóa</a>
+            </td>
+        </tr>
+    }
+</table>

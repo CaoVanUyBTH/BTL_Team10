@@ -1,0 +1,39 @@
+@model IEnumerable<Nhom10.Models.Customer>
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Index</h1>
+<p> 
+    <a asp-action="Create">Creat New</a> | <a asp-action="Upload">Input Excel</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CusID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CusName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CusID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CusName)
+                </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.CusID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.CusID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.CusID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
