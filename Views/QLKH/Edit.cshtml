@@ -1,4 +1,4 @@
-@model Nhom10.Models.Customer
+@model Nhom10.Models.QLKH
 @{
     ViewData["Title"] = "Edit";
 }
@@ -10,14 +10,14 @@
        <form asp-action = "Create">
             <div asp-validation-summary = "ModelOnly" class = "text-danger"></div>
             <div class = "form-group">
-                <label asp-for = "CusID" class = "control-label"></label>
-                <input asp-for = "CusID" class = "form-control"></input>
-                <span asp-validation-for = "CusID" class = "text-danger"></span>
+                <label asp-for = "QLKHID" class = "control-label"></label>
+                <input asp-for = "QLKHID" class = "form-control"></input>
+                <span asp-validation-for = "QLKHID" class = "text-danger"></span>
             </div>
             <div class = "form=group">
-                <label asp-for = "CusName" class = "control-label"></label>
-                <input asp-for = "CusName" class = "form-control"></input>
-                <span asp-validation-for = "CusName" class = "text-danger"></span>
+                <label asp-for = "QLKHName" class = "control-label"></label>
+                <input asp-for = "QLKHName" class = "form-control"></input>
+                <span asp-validation-for = "QLKHName" class = "text-danger"></span>
             </div>
             <br>
             <div class="form-group">

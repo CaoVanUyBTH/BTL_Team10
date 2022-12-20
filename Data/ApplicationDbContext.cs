@@ -8,9 +8,9 @@ namespace Nhom10.Data
         public ApplicationDbContext (DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
-        public DbSet<Employee> Employees { get; set;}
-        public DbSet<Customer> Customers { get; set;}
+         public DbSet<Nhom10.Models.QLKH> QLKH { get; set; } = default!;
         public DbSet<Nhom10.Models.QLDH> QLDH { get; set; } = default!;
-        public DbSet<Nhom10.Models.QLDH> QLSP { get; set; } = default!;
+        public DbSet<Nhom10.Models.QLSP> QLSP { get; set; } = default!;
+         public DbSet<Nhom10.Models.QLNV> QLNV { get; set; } = default!;
     }
 }

@@ -107,7 +107,7 @@ namespace Nhom10.Controllers
 
         private bool QLSPExists(string id)
         {
-            return _context.QLSP.Any(e => e.QLSLID == id);
+            return _context.QLSP.Any(e => e.QLSPID == id);
         }
     }
 }

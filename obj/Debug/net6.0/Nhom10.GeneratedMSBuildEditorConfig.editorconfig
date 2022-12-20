@@ -8,109 +8,117 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Nhom10
 build_property.RootNamespace = Nhom10
-build_property.ProjectDir = D:\code\Nhom10\Nhom10\
+build_property.ProjectDir = d:\code\Nhom10\Nhom10\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\code\Nhom10\Nhom10
+build_property.MSBuildProjectDirectory = d:\code\Nhom10\Nhom10
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/code/Nhom10/Nhom10/Views/Customer/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/code/Nhom10/Nhom10/Views/Customer/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/code/Nhom10/Nhom10/Views/Customer/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/code/Nhom10/Nhom10/Views/Customer/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/code/Nhom10/Nhom10/Views/Customer/Upload.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcVXBsb2FkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/code/Nhom10/Nhom10/Views/Employee/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/code/Nhom10/Nhom10/Views/Employee/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/code/Nhom10/Nhom10/Views/Employee/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/code/Nhom10/Nhom10/Views/Employee/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/code/Nhom10/Nhom10/Views/Employee/Upload.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVXBsb2FkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/code/Nhom10/Nhom10/Views/Home/Index.cshtml]
+[d:/code/Nhom10/Nhom10/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/Nhom10/Nhom10/Views/Home/Privacy.cshtml]
+[d:/code/Nhom10/Nhom10/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/Nhom10/Nhom10/Views/QLDH/Create.cshtml]
+[d:/code/Nhom10/Nhom10/Views/QLDH/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxESFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/Nhom10/Nhom10/Views/QLDH/Delete.cshtml]
+[d:/code/Nhom10/Nhom10/Views/QLDH/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxESFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/Nhom10/Nhom10/Views/QLDH/Edit.cshtml]
+[d:/code/Nhom10/Nhom10/Views/QLDH/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxESFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/Nhom10/Nhom10/Views/QLDH/Index.cshtml]
+[d:/code/Nhom10/Nhom10/Views/QLDH/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxESFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/Nhom10/Nhom10/Views/QLSP/Create.cshtml]
+[d:/code/Nhom10/Nhom10/Views/QLDH/Upload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxESFxVcGxvYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/code/Nhom10/Nhom10/Views/QLKH/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLSFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/code/Nhom10/Nhom10/Views/QLKH/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLSFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/code/Nhom10/Nhom10/Views/QLKH/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLSFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/code/Nhom10/Nhom10/Views/QLKH/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLSFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/code/Nhom10/Nhom10/Views/QLKH/Upload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLSFxVcGxvYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/code/Nhom10/Nhom10/Views/QLNV/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxOVlxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/code/Nhom10/Nhom10/Views/QLNV/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxOVlxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/code/Nhom10/Nhom10/Views/QLNV/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxOVlxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/code/Nhom10/Nhom10/Views/QLNV/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxOVlxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/code/Nhom10/Nhom10/Views/QLNV/Upload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxOVlxVcGxvYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/code/Nhom10/Nhom10/Views/QLSP/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxTUFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/Nhom10/Nhom10/Views/QLSP/Delete.cshtml]
+[d:/code/Nhom10/Nhom10/Views/QLSP/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxTUFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/Nhom10/Nhom10/Views/QLSP/Edit.cshtml]
+[d:/code/Nhom10/Nhom10/Views/QLSP/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxTUFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/Nhom10/Nhom10/Views/QLSP/Index.cshtml]
+[d:/code/Nhom10/Nhom10/Views/QLSP/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxTUFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/Nhom10/Nhom10/Views/Shared/Error.cshtml]
+[d:/code/Nhom10/Nhom10/Views/QLSP/Upload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxTUFxVcGxvYWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/code/Nhom10/Nhom10/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/Nhom10/Nhom10/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/code/Nhom10/Nhom10/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/Nhom10/Nhom10/Views/_ViewImports.cshtml]
+[d:/code/Nhom10/Nhom10/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/Nhom10/Nhom10/Views/_ViewStart.cshtml]
+[d:/code/Nhom10/Nhom10/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/code/Nhom10/Nhom10/Views/Shared/_Layout.cshtml]
+[d:/code/Nhom10/Nhom10/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7ztm2309r8

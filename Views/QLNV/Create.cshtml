@@ -1,0 +1,24 @@
+@model Nhom10.Models.QLNV
+<h1>Tạo mới một nhân viên</h1>
+<hr>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="QLNVID" class="control-label"></label>
+                <input asp-for="QLNVID" class="form-control">
+                <span asp-validation-for="QLNVID" class"text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QLNVName" class="control-label"></label>
+                <input asp-for="QLNVName" class="form-control">
+                <span asp-validation-for="QLNVName" class"text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input class="btn btn-primary" type="submit" value="Save">
+                <a class="btn btn-success" asp-action="Index">Danh sách nhân viên</a>
+            </div>
+        </form>
+    </div>
+</div>

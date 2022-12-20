@@ -4,6 +4,7 @@ using Nhom10.Models;
 
 namespace Nhom10.Controllers;
 
+
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
